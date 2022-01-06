@@ -1,4 +1,4 @@
-# Navigating Local Minima in Quantized Spiking Neural Networks
+# Quantized Spiking Neural Networks
 This paper contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
 
 ## To run
