@@ -1,5 +1,5 @@
 # Quantized Spiking Neural Networks
-This paper contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
+This repo contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
 
 ## Requirements
 A working `Python` (≥3.6) interpreter and the `pip` package manager. All required libraries and packages can be installed using  `pip install -r requirements.txt`. To avoid potential package conflicts, the use of a `conda` environment is recommended. The following commands can be used to create and activate a separate `conda` environment, clone this repository, and to install all dependencies:
