@@ -12,5 +12,5 @@ This paper contains the corresponding code from the paper *Navigating Local Mini
 * To enable plotting, set `plot_loss=True` in `conf.py`. 
 * If you already have csv files containing loss values, then run `python plot_loss.py` directly
 * As we store the loss at every iteration, you may wish to make the plot more visible. - This can be done by either:
-- Downsampling by dropping data points. Set `drop_count=N` where `N` is an integer specifying the reduction factor, and uncomment `drop_count = 0`, `df = df[df['idx'] % drop_count == 0]` 
-- Take a moving average by increasing `window` in `df['mean_rolling'] = df.iloc[:,3].rolling(window=20).mean()`.
+    1. Downsampling by dropping data points. Set `drop_count=N` where `N` is an integer specifying the reduction factor, and uncomment `drop_count = 0`, `df = df[df['idx'] % drop_count == 0]` 
+    2. Take a moving average by increasing `window` in `df['mean_rolling'] = df.iloc[:,3].rolling(window=20).mean()`.
