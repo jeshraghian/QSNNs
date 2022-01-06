@@ -43,7 +43,7 @@ config = {
         'patience': 100,
 
         # cosine annealing schedule
-        't_max' : 4690,  # period of cosine scheduler [num iterations] -- i.e., cycle every 10 epochs
+        't_max' : 735,  # period of cosine scheduler [num iterations] -- i.e., cycle every 10 epochs
         'eta_min' : 0,
 
     }
