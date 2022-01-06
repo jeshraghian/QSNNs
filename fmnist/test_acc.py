@@ -4,7 +4,6 @@ from snntorch import functional as SF
 
 def test_accuracy(config, net, testloader, device="cpu"):
 
-
     correct = 0
     total = 0
     with torch.no_grad():
@@ -18,5 +17,5 @@ def test_accuracy(config, net, testloader, device="cpu"):
 
             total += labels.size(0)
             correct += accuracy * labels.size(0)
-    
+
     return 100 * correct / total
