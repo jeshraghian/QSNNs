@@ -22,6 +22,6 @@ To execute code, `cd` into one of three dataset directories, and then run `pytho
 ## Plotting
 * To enable plotting, set `plot_loss=True` in `conf.py`. 
 * If you already have csv files containing loss values, then `python plot_loss.py` can be run directly.
-* As we store the loss at every iteration, you may wish to make the plot more visible. This can be done by either:
-    1. Downsampling by dropping data points. Set `drop_count=N`, where `N` is an integer specifying the reduction factor, and uncomment `drop_count = 0`, `df = df[df['idx'] % drop_count == 0]` 
+* As we store the loss at every iteration, the plot can become quite noisy. To make the the plot more visible, either:
+    1. Downsample by dropping data points. Set `drop_count=N`, where `N` is an integer specifying the reduction factor, and uncomment `drop_count = 0`, `df = df[df['idx'] % drop_count == 0]` 
     2. Take a moving average by increasing `window` in `df['mean_rolling'] = df.iloc[:,3].rolling(window=20).mean()`.
