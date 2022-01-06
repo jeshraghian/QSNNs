@@ -1,0 +1,7 @@
+torch
+snntorch
+pandas
+brevitas
+seaborn
+matplotlib
+numpy
