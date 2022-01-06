@@ -7,16 +7,13 @@ A working `Python` (≥3.6) interpreter and the `pip` package manager. All requi
 ```
 conda create -n QSNNs python=3.8
 conda activate QSNNs
-git clone https://github.com/jeshraghian/QSNNs
+git clone XXX
 cd QSNNs
 pip install -r requirements.txt
 ```
 
-
-
 ## Code Execution
 To execute code, `cd` into one of three dataset directories, and then run `python run.py`. 
-
 
 ## Hyperparameter Tuning
 * In each directory, `conf.py` defines all configuration parameters and hyperparameters for each dataset. The default parameters in this repo are identical to those for the high precision case reported in the corresponding paper.
