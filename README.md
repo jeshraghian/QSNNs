@@ -17,7 +17,7 @@ To run all standalone scripts, a working `Python` (≥3.6) interpreter and the `
 ```
 conda create -n QSNNs python=3.8
 conda activate QSNNs
-git clone XXX
+git clone https://github.com/jeshraghian/QSNNs.git
 cd QSNNs
 pip install -r requirements.txt
 ```
