@@ -1,7 +1,10 @@
 torch
 snntorch
-pandas
-brevitas
-seaborn
-matplotlib
 numpy
+pandas
+optuna
+seaborn
+joblib
+h5py
+brevitas
+requests

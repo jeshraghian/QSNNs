@@ -5,7 +5,6 @@ from snntorch import utils
 
 def load_data(config):
     data_dir = config["data_dir"]
-
     transform = transforms.Compose(
         [
             transforms.Resize((28, 28)),
@@ -14,11 +13,6 @@ def load_data(config):
             transforms.Normalize((0,), (1,)),
         ]
     )
-
     trainset = datasets.MNIST(data_dir, train=True, download=True, transform=transform)
     testset = datasets.MNIST(data_dir, train=False, download=True, transform=transform)
-
-    utils.data_subset(trainset, 500)
-    utils.data_subset(testset, 500)
-
     return trainset, testset
