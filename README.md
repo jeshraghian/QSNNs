@@ -5,7 +5,7 @@ This repository contains the corresponding code from the paper *Navigating Local
 We provide a Jupyer notebook [here](), which includes documentation and information about our developed scripts and methodologies. This can be run in a Google Collaboratory environment without any prerequisites [here]().
 
 ## Code Execution of Standalone Scripts 
-For more advanced users, i.e., those proficient with Python, we provide execute code in the form of Python scripts. Simulations can be run by configuring and executing `run.py` in each dataset directory.
+For more advanced users, i.e., those proficient with Python, we provide executable code in the form of Python scripts. Simulations can be run by configuring and executing `run.py` in each respective dataset directory.
 
 ## Requirements
 ### Jupyter Notebook
@@ -28,5 +28,5 @@ pip install -r requirements.txt
 
 ## Interpreting and Plotting Results
 * Results can be gathered and plotted using `extract_test_set_accuracy.py` and `plot_results.py`, respectively. 
-* `plot_results.py` can be reconfigured to plot different quantaties.
+* `plot_results.py` can be reconfigured to plot different quantities.
 * By default, `plot_results.py` plots the loss curve evolution during training for all three datasets.
