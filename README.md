@@ -1,7 +1,8 @@
 # Quantized Spiking Neural Networks
-<p align="center"><img src="https://user-images.githubusercontent.com/40262130/153728440-8f1c4a9b-dac2-4ad5-828c-21fb4e42f8c2.png" width=65% height=65%><p >
+<p align="center"><img src="https://user-images.githubusercontent.com/40262130/153729436-964410be-5265-416e-b50a-10258b17c411.png"><p >
 </p>
 This repository contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
+
 
 ## Jupyer Notebook
 We provide a Jupyer notebook [here](https://github.com/jeshraghian/QSNNs/blob/main/quickstart.ipynb), which includes documentation and information about our developed scripts and methodologies. This can be run in a Google Collaboratory environment without any prerequisites [here](https://colab.research.google.com/github/jeshraghian/QSNNs/blob/main/quickstart.ipynb).
