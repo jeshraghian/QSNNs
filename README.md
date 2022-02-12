@@ -2,7 +2,7 @@
 This repository contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
 
 ## Jupyer Notebook
-We provide a Jupyer notebook [here](), which includes documentation and information about our developed scripts and methodologies. This can be run in a Google Collaboratory environment without any prerequisites [here]().
+We provide a Jupyer notebook [here](https://github.com/jeshraghian/QSNNs/blob/main/quickstart.ipynb), which includes documentation and information about our developed scripts and methodologies. This can be run in a Google Collaboratory environment without any prerequisites [here](https://colab.research.google.com/github/jeshraghian/QSNNs/blob/main/quickstart.ipynb).
 
 ## Code Execution of Standalone Scripts 
 For more advanced users, i.e., those proficient with Python, we provide executable code in the form of Python scripts. Simulations can be run by configuring and executing `run.py` in each respective dataset directory.
