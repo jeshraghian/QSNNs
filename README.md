@@ -1,4 +1,6 @@
 # Quantized Spiking Neural Networks
+<p align="center"><img src="https://user-images.githubusercontent.com/40262130/153728440-8f1c4a9b-dac2-4ad5-828c-21fb4e42f8c2.png" width=65% height=65%><p >
+</p>
 This repository contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*. 
 
 ## Jupyer Notebook
