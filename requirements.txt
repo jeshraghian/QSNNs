@@ -1,0 +1,10 @@
+torch
+snntorch
+numpy
+pandas
+optuna
+seaborn
+joblib
+h5py
+brevitas
+requests
