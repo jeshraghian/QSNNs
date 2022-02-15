@@ -1,7 +1,7 @@
 # Quantized Spiking Neural Networks
 This repository contains the corresponding code from the paper *Navigating Local Minima in Quantized Spiking Neural Networks*, which was written by Jason K. Eshraghian, Corey Lammie, Mostafa Rahimi Azghadi, and Wei D. Lu.
 
-![git_path](https://user-images.githubusercontent.com/13549940/154007843-a1abadad-cf01-49bc-8755-c4fbfe2db646.svg)
+![git_path](https://user-images.githubusercontent.com/13549940/154009399-eb6152f7-31db-4f93-9978-ac1e1c4a8c6a.svg)
 <p style="text-align: center; align="center"><i>Illustrations of the key concepts of the paper: Periodic scheduling can enable SNNs to overcome flat surfaces and local minima. When the LR is boosted during training using a cyclic scheduler, it is given another chance to reduce the loss with different initial conditions. While the loss appears to converge, subsequent LR boosting enables it to traverse more optimal solutions</i>.</p>
 
 
