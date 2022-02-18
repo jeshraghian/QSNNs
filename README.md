@@ -11,7 +11,7 @@ If you find this code useful in your work, please cite the following source:
 ```
 @article{eshraghian2022navigating,
   title={{Navigating Local Minima in Quantized Spiking Neural Networks}},
-  author={Eshraghian, Jason K and Lammie, Correy and Rahimi Azghadi, Mostafa and Lu, Wei D},
+  author={Eshraghian, Jason K and Lammie, Corey and Rahimi Azghadi, Mostafa and Lu, Wei D},
   year={2022},
   eprint={2202.07221},
   archivePrefix={arXiv},
